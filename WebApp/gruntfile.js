@@ -14,7 +14,7 @@ module.exports = function (grunt) {
             }
         },
         less: {
-            process: {
+            Development: {
                 options: {
                     paths: ["Content"],
                 },

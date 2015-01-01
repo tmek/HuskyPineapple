@@ -37,7 +37,7 @@ namespace WebApp
                 .AddDbContext<ApplicationDbContext>();
 
             // Add Identity services to the services container.
-            services.AddDefaultIdentity<ApplicationDbContext, ApplicationUser, IdentityRole>(Configuration);
+            services.AddIdentity<ApplicationUser, IdentityRole>(Configuration).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
             // Add MVC services to the services container.
             services.AddMvc();
