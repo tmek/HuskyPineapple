@@ -183,5 +183,6 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 # ASP.NET 5
+artifacts/
 bower_components/
 **/wwwroot/lib/*
