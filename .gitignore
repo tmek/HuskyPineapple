@@ -181,3 +181,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# ASP.NET 5
+bower_components/
+**/wwwroot/lib/*
